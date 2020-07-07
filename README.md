@@ -4,7 +4,7 @@ At The Cirqle, we help our clients to reach their marketing objectives. One way 
 
 Through our platform we allow our users to select what interest categories they'd like to target with their campaigns.
 
-![tree select](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/assets/mockups/1_emtpy_state.jpg)
+![tree select](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/mockups/1_emtpy_state.jpg)
 
 ## Back end
 
@@ -56,19 +56,19 @@ At Cirqle we use Vue (plain JS and Pug for templating) together with (S)CSS.
 
 #### 2. Interaction with tree select widget
 
-![Clicking the label and/or chevron toggles the visibility of the node's direct children (if any).](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/assets/mockups/2_open_leaves.jpg)
+![Clicking the label and/or chevron toggles the visibility of the node's direct children (if any).](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/mockups/2_open_leaves.jpg)
 
 Clicking the label and/or chevron toggles the visibility of the node's direct children (if any).
 
-![Children can contain multiple levels of grandchildren.](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/assets/mockups/3_recursively_open_leaves.jpg)
+![Children can contain multiple levels of grandchildren.](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/mockups/3_recursively_open_leaves.jpg)
 
 Children can contain multiple levels of grandchildren.
 
 Selecting a grandchild only adds the clicked element to the selection. Parents of the selected (grand)child now have the intermediary state.
 
-![Selecting a grandchild only adds the clicked element to the selection.](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/assets/mockups/4_select%20node_leaf.jpg)
-![Selecting a grandchild only adds the clicked element to the selection.](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/assets/mockups/5_select_intermediary_leaf.jpg)
+![Selecting a grandchild only adds the clicked element to the selection.](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/mockups/4_select%20node_leaf.jpg)
+![Selecting a grandchild only adds the clicked element to the selection.](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/mockups/5_select_intermediary_leaf.jpg)
 
 When a parent is selected, all underlying children and grandchildren are selected too.
 
-![Selecting a grandchild only adds the clicked element to the selection.](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/assets/mockups/6_select%20parent_leaf.jpg)
+![Selecting a grandchild only adds the clicked element to the selection.](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/mockups/6_select%20parent_leaf.jpg)
