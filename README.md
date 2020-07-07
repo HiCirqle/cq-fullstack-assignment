@@ -1,6 +1,8 @@
 # Assignment
 
-Allow users to select ad interests to target ads towards specific Facebook users.
+At The Cirqle, we help our clients to reach their marketing objectives. One way we do this, is by helping them connect with new (potential) customers through paid media (sponsored) posts. To be successful when running paid media campaigns, precise and strategic targeting is of the utmost importance.
+
+Through our platform we allow our users to select what interest categories they'd like to target with their campaigns.
 
 ![tree select](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/assets/mockups/1_emtpy_state.jpg)
 
