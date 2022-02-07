@@ -51,10 +51,19 @@ Users are able to select an unlimited amount of interests.
 
 #### 1. Front end framework or tools
 
-You're free to decide what tooling you'd like to use to build up the tree select widget.
-At Cirqle we use Vue (plain JS and Pug for templating) together with (S)CSS.
+Please use Vue or Nuxt to build the frontend for this assignment.
+At Cirqle we use Vue & Nuxt (plain ES6+ JS and Pug for templating) together with SCSS.
 
-#### 2. Interaction with tree select widget
+
+#### 2. Interaction with tree select widget (BASIC)
+![Render the parent categories that are returned in a linear list, with a checkbox against each item](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/mockups/2_open_leaves.jpg)
+
+Render the parent categories that are returned in a linear list, with a checkbox against each item. You need only render the parent items shown in this mockup, DO NOT RENDER CHILDREN ITEMS (this is for the extended version of this assignment). This also means you do not need to add the chevron indicating when a parent has been selected, a simple checkbox is enough.
+
+When you select a parent category from this list, it should select this parent, and all the child categories underneath as returned from the Facebook API into a suitable object or array, and print this onto the screen somewhere. Again, when selecting parent items simply select the children from the data, do not do any visual rendering of child selection.
+
+
+#### 2. Interaction with tree select widget (ADVANCED)
 
 ![Clicking the label and/or chevron toggles the visibility of the node's direct children (if any).](https://github.com/HiCirqle/cq-fullstack-assignment/blob/master/mockups/2_open_leaves.jpg)
 
